@@ -5,7 +5,7 @@ Bit Maximo! is a simple game about a character jumping, sliding, and diving thro
 </p>
 
 <p>
-As the game progresses, more obstacles will be generated and the game will speed up to add a level of difficulty for the player. The more obstacles the player goes through, the more points they accoumulate. Although it's a simple game, it manages to test the player's dexterity along with their hand-eye coordination from switching between jump, slide, dive while alternating between blue, red, green. 
+As the game progresses, more obstacles will be generated and the game will speed up to add a level of difficulty for the player. The more obstacles the player goes through, the more points they accumulate. Although it's a simple game, it manages to test the player's dexterity along with their hand-eye coordination from switching between jump, slide, dive while alternating between blue, red, green. 
 </p>
 
 <p>

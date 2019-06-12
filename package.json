@@ -1,0 +1,29 @@
+{
+  "name": "bit_maximo",
+  "version": "1.0.0",
+  "description": "<h1>Bit Maximo!</h1>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Droool/bit-maximo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Droool/bit-maximo/issues"
+  },
+  "homepage": "https://github.com/Droool/bit-maximo#readme",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.4"
+  }
+}
