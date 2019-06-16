@@ -1,5 +1,109 @@
-.canvas-container {
-    width: 1000px; 
+body {
+    background: url('https://vignette.wikia.nocookie.net/mspaintadventures/images/5/50/Wiki-background/revision/latest?cb=20130202132212');
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #0095DD; 
+}
+
+.game-name {
+    margin: 20px 30% 0;
+    /* font-size: 1em; */
+    color: #ffffff; 
+    background: #0095DD; 
+    text-align: center; 
+    padding: 15px;
+    width: 300px;
+    border: 1px solid #ffffff;
+    box-shadow: 10px 10px 0 0 rgba(0,0,0,0.3);
+}
+
+.entire-game {
+    display: flex; 
+    justify-content: space-between;
+    width: 1000px;
     margin: 0 auto;
+}
+
+.container {
+    background: white;
     border: 10px solid #0095DD;
+    height: 400px; 
+    margin: 30px;
+    box-shadow: 10px 10px 0 0 rgba(0,0,0,0.3);
+
+}
+.canvas-container {
+    width: 640px;
+}
+
+.controls-container {
+    height: auto;
+    width: 230px;
+    text-align: center;
+}
+/* colors changes
+    #0095DD blue
+    #dd1a00 red
+    #63dd00 green
+*/
+
+.controls-container img {
+    height: 40px; 
+    width: 40px; 
+}
+
+span {
+    color: #ffffff; 
+    background: #0095DD;
+    font-weight: bold;
+    margin: 5px;
+    padding:10px 12px;
+    box-shadow: 4px 4px 0 0 rgba(0,0,0,0.2);
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column;
+    padding: 15% 0;
+    margin: 0 0 0 15px; 
+}
+
+.arrow-info {
+    display: flex;
+    justify-content: space-around; 
+    font-weight: bold;
+    width: 140px;
+    box-sizing: border-box;
+}
+
+.arrow-info span {
+    width: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    height: 18px;
+}
+
+.music-toggle {
+    display: flex; 
+    justify-content: space-around; 
+    width: 140px;
+}
+
+.music-toggle h3 {
+    line-height: .5;
+}
+
+.dev-info {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px 0 0; 
+}
+
+.contact-logo {
+    display: flex; 
+    justify-content: space-around; 
+    width: 100px;
+    margin: 0 0 0 35px;
 }
