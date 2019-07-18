@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Droool/bit-maximo#readme",
   "dependencies": {
     "babel-loader": "^8.0.6",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.13"
   },
   "devDependencies": {
     "webpack": "^4.33.0",
